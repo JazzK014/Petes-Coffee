@@ -1,0 +1,134 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+video {
+  max-width: 100%;
+  max-height: 40%;
+}
+
+@keyframes appear {
+  from {color: #9b583d;}
+  to {color: white;}
+}
+
+h1 {
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 8vmax;
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  margin: 0;
+  animation-name: appear;
+  animation-duration: 5s;
+}
+
+nav {
+  position: absolute;
+  top: auto;
+  padding-top: 20%;
+  left: 5.5%;
+  font-size: 1.3vmax;
+  z-index: 9;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 3vmax;
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+table {
+  width: 50%;
+}
+
+th {
+  text-align: center;
+  color: white;
+}
+
+td {
+  text-align: center;
+  background-color: white;
+  color: #9b583d;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.nav-link {
+  color: white;
+  display: block;
+  animation-name: appear;
+  animation-duration: 5s;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.tagline {
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75vmax;
+  color: #9b583d;
+  font-style: italic;
+  padding: 50px;
+}
+
+.solid {
+  background-color: white;
+  margin: 2px;
+  padding: 70px;
+}
+
+.dark {
+  background-color: #9b583d;
+  margin: 0;
+  padding: 70px;
+}
+
+.text2 {
+  color: white;
+}
+
+.contact {
+  padding-bottom: 20px;
+}
+
+.socials {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 1.5vmax;
+  padding: 5px;
+}
+
+.container-fluid {
+  text-align: center;
+  padding: 20px
+}
+
+.copyright {
+  text-align: center;
+  font-size: .95vmax;
+  padding-top: 80px;
+}
